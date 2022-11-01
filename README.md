@@ -2,9 +2,18 @@
 
 The main motive of the project is to predict the amount of rainfall in Vidarbha region or state well in advance. We predict average rainfall using past data.
 
+
+Tech Stack
+
+* Front-End: HTML, CSS, Bootstrap
+* Back-End: Flask
+* IDE: Jupyter notebook, Pycharm
+
+
 # CONCLUSION
 
 XGBoost and Random Forest performed better compared to other models. However, if speed is an important thing to consider, we can stick with Random Forest instead of XGBoost.
+
 
 # Improvements that can be done:
 
