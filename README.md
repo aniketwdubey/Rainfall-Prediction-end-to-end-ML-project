@@ -3,11 +3,11 @@
 The main motive of the project is to predict the amount of rainfall in Vidarbha region or state well in advance. We predict average rainfall using past data.
 
 
-Tech Stack
+# Tech Stack
 
-* Front-End: HTML, CSS, Bootstrap
+* Front-End: HTML, CSS
 * Back-End: Flask
-* IDE: Jupyter notebook, Pycharm
+* IDE: Jupyter notebook, vscode
 
 
 # CONCLUSION
