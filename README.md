@@ -12,7 +12,7 @@ The main motive of the project is to predict the amount of rainfall in Vidarbha 
 
 ## How to Run the Project
 
-1. **Clone the repository:**
+1. **Clone the repository**
 
 2. **Set up a virtual environment (optional but recommended):**
    ```
