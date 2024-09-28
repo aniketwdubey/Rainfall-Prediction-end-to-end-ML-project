@@ -36,7 +36,7 @@ The main motive of the project is to predict the amount of rainfall in Vidarbha 
 
 5. **Run the Flask app:**
    ```
-   python app.py
+   python main.py
    ```
    The Flask app will start running, typically on `http://127.0.0.1:5000/`.
 
