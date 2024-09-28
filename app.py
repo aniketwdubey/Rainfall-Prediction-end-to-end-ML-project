@@ -13,11 +13,16 @@ from sklearn import metrics
 df = pd.read_csv("rainfall in india 1901-2015.csv")
 df = df.fillna(df.mean(numeric_only=True))
 
+# Modelling¶
+group = df.groupby('SUBDIVISION')[['YEAR','JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC']]
+df = group.get_group('VIDARBHA')
+print(df.head())
 
 df2=df.melt(['YEAR']).reset_index()
+print(df2.head())
 
 df2= df2[['YEAR','variable','value']].reset_index().sort_values(by=['YEAR','index'])
-
+print(df2.head())
 
 df2.columns=['Index','Year','Month','Avg_Rainfall']
 
@@ -32,6 +37,7 @@ y=np.asanyarray(df2['Avg_Rainfall']).astype('int')
 
 from sklearn.model_selection import train_test_split
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=10)
+
 
 from sklearn.linear_model import LinearRegression
 LR = LinearRegression()
@@ -65,6 +71,7 @@ gbr = GradientBoostingRegressor(random_state=0)
 gbr.fit(X_train, y_train)
 
 
+# Ensemble Stacking
 from mlxtend.regressor import StackingCVRegressor
 
 stack = StackingCVRegressor(regressors=(LR, random_forest_model, svm_regr),
