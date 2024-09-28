@@ -2,6 +2,7 @@
 
 The main motive of the project is to predict the amount of rainfall in Vidarbha region or state well in advance. We predict average rainfall using past data.
 
+![alt text](static/workFlow.png)
 
 ## Tech Stack
 
@@ -19,8 +20,8 @@ The main motive of the project is to predict the amount of rainfall in Vidarbha 
 
 2. **Set up a virtual environment (optional but recommended):**
    ```
-   python -m venv venv
-   source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+   python -m venv env
+   source env/bin/activate  # On Windows, use `env\Scripts\activate`
    ```
 
 3. **Install required dependencies:**
