@@ -13,10 +13,6 @@ The main motive of the project is to predict the amount of rainfall in Vidarbha 
 ## How to Run the Project
 
 1. **Clone the repository:**
-   ```
-   git clone https://github.com/your-username/Rainfall-Prediction-end-to-end-ML-project.git
-   cd Rainfall-Prediction-end-to-end-ML-project
-   ```
 
 2. **Set up a virtual environment (optional but recommended):**
    ```
