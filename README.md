@@ -30,7 +30,7 @@ The main motive of the project is to predict the amount of rainfall in Vidarbha 
 
 4. **Train the model and create pickle file:**
    ```
-   python train_model.py
+   python app.py
    ```
    This will train the model using the provided dataset and save it as a pickle file.
 
